@@ -55,5 +55,5 @@ jobs:
 
     # Definindo variáveis de ambiente seguras
     env:
-      SONAR_HOST_URL: ${{ https://sonarcloud.io }}
-      SONAR_TOKEN: ${{ b8c8f1e999fbd5e62dab83d5ab84af8253e70398 }}
+      SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}  # URL do seu servidor SonarQube
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # Token de autenticação do SonarQube
