@@ -55,5 +55,5 @@ jobs:
 
     # Definindo variáveis de ambiente seguras
     env:
-      SONAR_HOST_URL: ${{ sonarcloud.io }}
+      SONAR_HOST_URL: ${{ https://sonarcloud.io }}
       SONAR_TOKEN: ${{ b8c8f1e999fbd5e62dab83d5ab84af8253e70398 }}
